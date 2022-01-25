@@ -3,7 +3,7 @@
 
 -behaviour(gen_server).
 
--include_lib("TCAP/include/tcap.hrl").
+-include_lib("tcap.hrl").
 
 -export([init/1, handle_cast/2, code_change/3, handle_call/3, handle_info/2, terminate/2]).
 
