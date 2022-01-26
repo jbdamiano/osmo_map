@@ -1,7 +1,7 @@
 -module(map_ss_server).
 -author('Harald Welte <laforge@gnumonks.org>').
 
--include_lib("TCAP/include/tcap.hrl").
+-include_lib("tcap.hrl").
 
 -behaviour(gen_server).
 
